@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#word-zone{
+    height: 700px;
+    width: 600px;
+}
+.word-row{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 500px;
+}
+.letter-space{
+    height: 80px;
+    width: 80px;
+    margin: 8px;
+    border: 2px solid gray;
+}
+
+#keyboard{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.key{
+    height: 80px;
+    width: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+}
+
+#enter-key{
+    width: 90px;
+}
